@@ -2,6 +2,8 @@
 
 This is a repository for HapticBots [UIST 2021].
 
+![](https://ryosuzuki.org/static/projects/hapticbots/figure-1.jpg)
+
 ```bibtex
 @inproceedings{suzuki2021hapticbots,
   title={HapticBots: Distributed Encountered-type Haptics for VR withMultiple Shape-changing Mobile Robots},
@@ -13,3 +15,4 @@ This is a repository for HapticBots [UIST 2021].
   doi = {10.1145/3472749.3474821}
 }
 ```
+
