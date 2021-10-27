@@ -1,0 +1,4704 @@
+{
+	"asset": {
+		"generator": "Tilt Brush 23.2.28f36f08b",
+		"version": "1.1",
+		"copyright": "Unknown."
+	},
+	"buffers": {
+		"buffer_sketch": {
+			"byteLength": 9888276,
+			"type": "arraybuffer",
+			"uri": "sketch.bin"
+		}
+	},
+	"accessors": {
+		"accessor_position_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 8,
+			"max": [ -0.694009125, -1.15607488, 1.11823559 ],
+			"min": [ -0.70668906, -1.18600297, 1.10338008 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 96,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC3"
+		},
+		"accessor_color_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 0,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 128,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 0,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC2"
+		},
+		"accessor_indices_0_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 0,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 18,
+			"max": [ 7 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 192,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 36336,
+			"max": [ 9.37968349, 1.54990947, 5.56737089 ],
+			"min": [ -1.04765439, -0.256712705, -2.76494455 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 436224,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 36336,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 256,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 36336,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 872256,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 36336,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 36,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 36336,
+			"max": [ 36335 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1308288,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"max": [ 4.70901632, 1.31048787, -0.818264127 ],
+			"min": [ 2.59075618, 1.19084477, -2.41009212 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1329528,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC3"
+		},
+		"accessor_color_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 581632,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC4"
+		},
+		"accessor_tangent_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 609952,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC4"
+		},
+		"accessor_uv0_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1350768,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 72708,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 8928,
+			"max": [ 1769 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1372008,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 8,
+			"max": [ 1.41770995, 2.42084837, 2.82290149 ],
+			"min": [ 1.15979028, 2.24104524, 2.49489856 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1372104,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC3"
+		},
+		"accessor_color_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 638272,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC4"
+		},
+		"accessor_tangent_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 638400,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC4"
+		},
+		"accessor_uv0_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 64,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC2"
+		},
+		"accessor_uv1_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 638528,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 8,
+			"type": "VEC4"
+		},
+		"accessor_indices_0_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 90564,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 12,
+			"max": [ 7 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1372200,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 27900,
+			"max": [ 1.62828946, 1.69347477, 1.35057676 ],
+			"min": [ -1.2799058, 0.557682514, -2.78012729 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1707000,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 27900,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 638656,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 27900,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2041800,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 27900,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 90588,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 27900,
+			"max": [ 27899 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2376600,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 156,
+			"max": [ 0.82653141, 1.67578781, -1.76877964 ],
+			"min": [ -0.562205613, 1.31003046, -2.33916259 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2378472,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 156,
+			"type": "VEC3"
+		},
+		"accessor_color_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1085056,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 156,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1087552,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 156,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 128,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 156,
+			"type": "VEC2"
+		},
+		"accessor_indices_0_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 146388,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 450,
+			"max": [ 155 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2380344,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"max": [ 1.3336252, 1.20816576, 0.889281094 ],
+			"min": [ 1.30468404, 1.1561569, -0.557036161 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2383320,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1090048,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1094016,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2386296,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 147288,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 720,
+			"max": [ 247 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2389272,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 590,
+			"max": [ -0.740201533, 1.11680973, 1.07539356 ],
+			"min": [ -1.14042127, 1.04682267, 0.200296327 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2396352,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 590,
+			"type": "VEC3"
+		},
+		"accessor_color_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1097984,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 590,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1107424,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 590,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2403432,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 590,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 148728,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 2976,
+			"max": [ 589 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2410512,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2514,
+			"max": [ 4.08678675, 1.32617879, 0.986106396 ],
+			"min": [ 2.91028357, 0.966800988, 0.622041941 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2440680,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2514,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1116864,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 2514,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2470848,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2514,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 154680,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 2514,
+			"max": [ 2513 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2501016,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"max": [ 4.02291822, 1.25197339, 0.819600523 ],
+			"min": [ 2.97163272, 1.20451665, 0.787373722 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2503992,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1157088,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1161056,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2506968,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 159708,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 720,
+			"max": [ 247 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2509944,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2478,
+			"max": [ 3.44232607, 1.34531569, 0.5131284 ],
+			"min": [ 3.07727981, 0.976710975, -0.662658393 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2539680,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2478,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1165024,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 2478,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2569416,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2478,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 161148,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 2478,
+			"max": [ 2477 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2599152,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"max": [ 3.27648401, 1.26017475, 0.454006195 ],
+			"min": [ 3.24386597, 1.21975851, -0.597473979 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2602128,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1204672,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1208640,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2605104,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 166104,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 720,
+			"max": [ 247 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2608080,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2502,
+			"max": [ 3.91790271, 1.36053622, 0.507162035 ],
+			"min": [ 3.56265759, 0.989505768, -0.666750491 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2638104,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2502,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1212608,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 2502,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2668128,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2502,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 167544,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 2502,
+			"max": [ 2501 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2698152,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"max": [ 3.75640345, 1.27688217, 0.449199289 ],
+			"min": [ 3.72679257, 1.23460245, -0.602251112 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2701128,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1252640,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1256608,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2704104,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 172548,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 720,
+			"max": [ 247 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2707080,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2478,
+			"max": [ 2.95750332, 1.335199, 0.512769163 ],
+			"min": [ 2.59768796, 0.964043319, -0.661410093 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2736816,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2478,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1260576,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 2478,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2766552,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2478,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 173988,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 2478,
+			"max": [ 2477 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2796288,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"max": [ 2.79119158, 1.24906921, 0.454778433 ],
+			"min": [ 2.76167083, 1.20543277, -0.596638083 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2799264,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1300224,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1304192,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2802240,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 178944,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 720,
+			"max": [ 247 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2805216,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2514,
+			"max": [ 4.39608955, 1.37107742, 0.500622511 ],
+			"min": [ 4.03945351, 0.995714664, -0.67505753 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2835384,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2514,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1308160,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 2514,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2865552,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 2514,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 180384,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 2514,
+			"max": [ 2513 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2895720,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"max": [ 4.23306084, 1.28675997, 0.441907257 ],
+			"min": [ 4.20001173, 1.23957837, -0.609381676 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2898696,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1348384,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1352352,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2901672,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 185412,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 720,
+			"max": [ 247 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2904648,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"max": [ 2.38130093, 1.27437103, 1.1315248 ],
+			"min": [ 2.14835739, 1.15163028, 0.898703098 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2926032,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1356320,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2947416,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 186852,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1782,
+			"max": [ 1781 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 2968800,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 28296,
+			"max": [ 3.35987973, 1.51087368, -0.975925863 ],
+			"min": [ 2.65993381, 1.18012846, -2.43229556 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 3308352,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 28296,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1384832,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 28296,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 3647904,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 28296,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 190416,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 28296,
+			"max": [ 28295 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 3987456,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"max": [ 2.92867231, 1.23740458, -0.653969109 ],
+			"min": [ 2.62324476, 1.08221757, -0.958257973 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4008768,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1837568,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4030080,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 247008,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1776,
+			"max": [ 1775 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4051392,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"max": [ 3.40333557, 1.24567604, -0.66081506 ],
+			"min": [ 3.09808707, 1.08761013, -0.965299129 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4072704,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1865984,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4094016,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 250560,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1776,
+			"max": [ 1775 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4115328,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"max": [ 3.88900256, 1.25876796, -0.667961001 ],
+			"min": [ 3.58358955, 1.10482979, -0.972312748 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4136640,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1894400,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4157952,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 254112,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1776,
+			"max": [ 1775 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4179264,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"max": [ 4.36963224, 1.27259362, -0.675394654 ],
+			"min": [ 4.06434107, 1.11372495, -0.979444802 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4200576,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1922816,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4221888,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1776,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 257664,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1776,
+			"max": [ 1775 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4243200,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"max": [ 4.96607971, 1.34104073, 0.809474647 ],
+			"min": [ 4.7329917, 1.22186637, 0.576594591 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4264584,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1951232,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4285968,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 261216,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1782,
+			"max": [ 1781 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4307352,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"max": [ 4.97177267, 1.36235404, 0.0112928879 ],
+			"min": [ 4.7390151, 1.24334931, -0.221874818 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4327944,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 1979744,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4348536,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 264780,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1716,
+			"max": [ 1715 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4369128,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"max": [ 4.97689056, 1.36558092, -0.306018561 ],
+			"min": [ 4.74363327, 1.24489915, -0.538210034 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4390368,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2007200,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4411608,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 268212,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1770,
+			"max": [ 1769 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4432848,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"max": [ 5.09644175, 1.29581606, -0.991333425 ],
+			"min": [ 4.60654402, 1.20019329, -1.2148391 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4449552,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2035520,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4466256,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 271752,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1392,
+			"max": [ 1391 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4482960,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"max": [ 5.09622812, 1.29074037, -0.714903533 ],
+			"min": [ 4.6070118, 1.19506419, -0.938009739 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4499664,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2057792,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4516368,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 274536,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1392,
+			"max": [ 1391 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4533072,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"max": [ 5.10462332, 1.32126296, -2.33363962 ],
+			"min": [ 4.61513472, 1.22380483, -2.55663466 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4549776,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2080064,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4566480,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 277320,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1392,
+			"max": [ 1391 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4583184,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"max": [ 5.10423994, 1.31390321, -2.05665135 ],
+			"min": [ 4.61473513, 1.21640754, -2.2809248 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4599888,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2102336,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4616592,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1392,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 280104,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1392,
+			"max": [ 1391 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4633296,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"max": [ 2.37722611, 1.28030622, 0.825616837 ],
+			"min": [ 2.14421105, 1.16399848, 0.592588067 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4654680,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2124608,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4676064,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 282888,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1782,
+			"max": [ 1781 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4697448,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"max": [ 4.91113091, 1.30001402, -1.29081643 ],
+			"min": [ 4.74827147, 1.20478809, -1.44944155 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4711488,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2153120,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4725528,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 286452,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1170,
+			"max": [ 1169 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4739568,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"max": [ 5.09863043, 1.31088209, -1.2917968 ],
+			"min": [ 4.93678951, 1.21658885, -1.45030296 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4753680,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2171840,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4767792,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 288792,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1176,
+			"max": [ 1175 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4781904,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"max": [ 5.09839773, 1.31001127, -1.48130262 ],
+			"min": [ 4.9377265, 1.21763015, -1.63942373 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4796016,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2190656,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4810128,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 291144,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1176,
+			"max": [ 1175 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4824240,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"max": [ 4.91079092, 1.30197978, -1.48032022 ],
+			"min": [ 4.749084, 1.20761204, -1.6392349 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4838280,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2209472,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4852320,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 293496,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1170,
+			"max": [ 1169 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4866360,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"max": [ 2.36787248, 1.29484928, 0.210657045 ],
+			"min": [ 2.13506389, 1.17916369, -0.0225918852 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4887744,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2228192,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4909128,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1782,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 295836,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1782,
+			"max": [ 1781 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4930512,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1152,
+			"max": [ 2.23453689, 1.18878877, -0.120757572 ],
+			"min": [ 2.0747664, 1.0959959, -0.278899401 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4944336,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1152,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2256704,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1152,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4958160,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1152,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 299400,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1152,
+			"max": [ 1151 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4971984,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"max": [ 2.42224669, 1.19507205, -0.120082371 ],
+			"min": [ 2.26352382, 1.10284746, -0.278219759 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 4986096,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2275136,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5000208,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 301704,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1176,
+			"max": [ 1175 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5014320,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"max": [ 2.39417815, 1.2559495, -2.0989728 ],
+			"min": [ 2.10225248, 1.08912647, -2.38751912 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5028432,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2293952,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5042544,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 304056,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1176,
+			"max": [ 1175 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5056656,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"max": [ 2.36366105, 1.31914055, -0.698079467 ],
+			"min": [ 2.13165474, 1.19591224, -0.931430757 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5077248,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2312768,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5097840,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 306408,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1716,
+			"max": [ 1715 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5118432,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"max": [ 2.36504149, 1.30672753, -0.381800056 ],
+			"min": [ 2.13185787, 1.18772209, -0.614318728 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5139672,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2340224,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5160912,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1770,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 309840,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1770,
+			"max": [ 1769 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5182152,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"max": [ 2.37150478, 1.31297004, -1.02190959 ],
+			"min": [ 2.13893962, 1.19423902, -1.2551893 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5202744,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2368544,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5223336,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1716,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 313380,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1716,
+			"max": [ 1715 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5243928,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"max": [ 2.23311257, 1.22177267, -1.51321435 ],
+			"min": [ 2.07344127, 1.13064265, -1.67075145 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5257968,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2396000,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5272008,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 316812,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1170,
+			"max": [ 1169 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5286048,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"max": [ 2.42083716, 1.22754538, -1.51282632 ],
+			"min": [ 2.26221967, 1.13728583, -1.67027724 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5300160,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2414720,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5314272,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 319152,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1176,
+			"max": [ 1175 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5328384,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"max": [ 2.42003846, 1.22710884, -1.32300651 ],
+			"min": [ 2.26025653, 1.13399971, -1.48130357 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5342496,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2433536,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5356608,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1176,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 321504,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1176,
+			"max": [ 1175 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5370720,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"max": [ 2.23238516, 1.21921694, -1.32320297 ],
+			"min": [ 2.07156825, 1.1255517, -1.48150682 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5384760,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2452352,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5398800,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1170,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 323856,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1170,
+			"max": [ 1169 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5412840,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1758,
+			"max": [ 2.35583067, 1.32687747, -1.76129091 ],
+			"min": [ 2.12321734, 1.20416057, -1.99450171 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5433936,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1758,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2471072,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1758,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5455032,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1758,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 326196,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1758,
+			"max": [ 1757 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5476128,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 27900,
+			"max": [ 8.40554047, 1.86619782, 1.35677314 ],
+			"min": [ 5.47456408, 0.737547338, -2.78392482 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 5810928,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 27900,
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2499200,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 27900,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6145728,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 27900,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 329712,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 27900,
+			"max": [ 27899 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6480528,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"max": [ 8.09876823, 1.39722335, 0.88031292 ],
+			"min": [ 8.07655811, 1.3519429, -0.566284895 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6483504,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2945600,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2949568,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6486480,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 248,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 385512,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 720,
+			"max": [ 247 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6489456,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 156,
+			"max": [ 7.5818367, 1.84809101, -1.76693821 ],
+			"min": [ 6.19139814, 1.47533953, -2.34823513 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6491328,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 156,
+			"type": "VEC3"
+		},
+		"accessor_color_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2953536,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 156,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2956032,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 156,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 1376,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 156,
+			"type": "VEC2"
+		},
+		"accessor_indices_0_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 386952,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 450,
+			"max": [ 155 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6493200,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 590,
+			"max": [ 6.03366613, 1.29388762, 1.08100116 ],
+			"min": [ 5.6305294, 1.22582901, 0.205827832 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6500280,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 590,
+			"type": "VEC3"
+		},
+		"accessor_color_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2958528,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 590,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 2967968,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 590,
+			"type": "VEC4"
+		},
+		"accessor_uv0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 6507360,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 590,
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 387852,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 2976,
+			"max": [ 589 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	},
+	"bufferViews": {
+		"ushortBufferView": {
+			"buffer": "buffer_sketch",
+			"byteLength": 393804,
+			"byteOffset": 0,
+			"target": 34963
+		},
+		"vec2BufferView": {
+			"buffer": "buffer_sketch",
+			"byteLength": 2624,
+			"byteOffset": 393804,
+			"target": 34962
+		},
+		"vec3BufferView": {
+			"buffer": "buffer_sketch",
+			"byteLength": 6514440,
+			"byteOffset": 396428,
+			"target": 34962
+		},
+		"vec4BufferView": {
+			"buffer": "buffer_sketch",
+			"byteLength": 2977408,
+			"byteOffset": 6910868,
+			"target": 34962
+		}
+	},
+	"meshes": {
+		"mesh_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0": {
+			"name": "mesh_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0",
+						"NORMAL": "accessor_normal_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0",
+						"COLOR": "accessor_color_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0",
+						"TANGENT": "accessor_tangent_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0",
+						"TEXCOORD_0": "accessor_uv0_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0"
+					},
+					"indices": "accessor_indices_0_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0",
+					"material": "material_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0": {
+			"name": "mesh_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0",
+						"NORMAL": "accessor_normal_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0",
+						"COLOR": "accessor_color_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0",
+						"TANGENT": "accessor_tangent_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0",
+						"TEXCOORD_0": "accessor_uv0_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0"
+					},
+					"indices": "accessor_indices_0_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0",
+					"material": "material_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"name": "mesh_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+						"NORMAL": "accessor_normal_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+						"COLOR": "accessor_color_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+						"TANGENT": "accessor_tangent_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+						"TEXCOORD_0": "accessor_uv0_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+						"TEXCOORD_1": "accessor_uv1_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0"
+					},
+					"indices": "accessor_indices_0_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+					"material": "material_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0": {
+			"name": "mesh_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0",
+						"NORMAL": "accessor_normal_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0",
+						"COLOR": "accessor_color_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0",
+						"TANGENT": "accessor_tangent_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0",
+						"TEXCOORD_0": "accessor_uv0_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0"
+					},
+					"indices": "accessor_indices_0_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0",
+					"material": "material_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0": {
+			"name": "mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0",
+						"NORMAL": "accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0",
+						"COLOR": "accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0",
+						"TANGENT": "accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0",
+						"TEXCOORD_0": "accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0"
+					},
+					"indices": "accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0",
+					"material": "material_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0": {
+			"name": "mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0",
+						"NORMAL": "accessor_normal_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0",
+						"COLOR": "accessor_color_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0",
+						"TANGENT": "accessor_tangent_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0",
+						"TEXCOORD_0": "accessor_uv0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0"
+					},
+					"indices": "accessor_indices_0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0",
+					"material": "material_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0": {
+			"name": "mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0",
+						"NORMAL": "accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0",
+						"COLOR": "accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0",
+						"TANGENT": "accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0",
+						"TEXCOORD_0": "accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0"
+					},
+					"indices": "accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0",
+					"material": "material_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0": {
+			"name": "mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0",
+						"NORMAL": "accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0",
+						"COLOR": "accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0",
+						"TANGENT": "accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0",
+						"TEXCOORD_0": "accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0"
+					},
+					"indices": "accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0",
+					"material": "material_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0": {
+			"name": "mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0",
+						"NORMAL": "accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0",
+						"COLOR": "accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0",
+						"TANGENT": "accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0",
+						"TEXCOORD_0": "accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0"
+					},
+					"indices": "accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0",
+					"material": "material_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0": {
+			"name": "mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0",
+						"NORMAL": "accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0",
+						"COLOR": "accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0",
+						"TANGENT": "accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0",
+						"TEXCOORD_0": "accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0"
+					},
+					"indices": "accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0",
+					"material": "material_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0": {
+			"name": "mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0",
+						"NORMAL": "accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0",
+						"COLOR": "accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0",
+						"TANGENT": "accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0",
+						"TEXCOORD_0": "accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0"
+					},
+					"indices": "accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0",
+					"material": "material_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0": {
+			"name": "mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0",
+						"NORMAL": "accessor_normal_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0",
+						"COLOR": "accessor_color_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0",
+						"TANGENT": "accessor_tangent_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0",
+						"TEXCOORD_0": "accessor_uv0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0"
+					},
+					"indices": "accessor_indices_0_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0",
+					"material": "material_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0": {
+			"name": "mesh_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0",
+						"NORMAL": "accessor_normal_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0",
+						"COLOR": "accessor_color_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0",
+						"TANGENT": "accessor_tangent_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0",
+						"TEXCOORD_0": "accessor_uv0_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0"
+					},
+					"indices": "accessor_indices_0_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0",
+					"material": "material_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0": {
+			"name": "mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0",
+						"NORMAL": "accessor_normal_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0",
+						"COLOR": "accessor_color_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0",
+						"TANGENT": "accessor_tangent_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0",
+						"TEXCOORD_0": "accessor_uv0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0"
+					},
+					"indices": "accessor_indices_0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0",
+					"material": "material_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+					"mode": 4
+				}
+			]
+		}
+	},
+	"shaders": {
+		"vertex_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62/Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62-v10.0-vertex.glsl"
+		},
+		"fragment_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62/Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62-v10.0-fragment.glsl"
+		},
+		"vertex_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/ShinyHull-faaa4d44-fcfb-4177-96be-753ac0421ba3/ShinyHull-faaa4d44-fcfb-4177-96be-753ac0421ba3-v10.0-vertex.glsl"
+		},
+		"fragment_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/ShinyHull-faaa4d44-fcfb-4177-96be-753ac0421ba3/ShinyHull-faaa4d44-fcfb-4177-96be-753ac0421ba3-v10.0-fragment.glsl"
+		},
+		"vertex_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/NeonPulse-b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6/NeonPulse-b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6-v10.0-vertex.glsl"
+		},
+		"fragment_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/NeonPulse-b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6/NeonPulse-b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6-v10.0-fragment.glsl"
+		},
+		"vertex_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9/HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9-v10.0-vertex.glsl"
+		},
+		"fragment_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9/HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9-v10.0-fragment.glsl"
+		},
+		"vertex_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab/Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab-v10.0-vertex.glsl"
+		},
+		"fragment_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab/Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab-v10.0-fragment.glsl"
+		},
+		"vertex_d381e0f5-3def-4a0d-8853-31e9200bcbda": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Lofted-d381e0f5-3def-4a0d-8853-31e9200bcbda/Lofted-d381e0f5-3def-4a0d-8853-31e9200bcbda-v10.0-vertex.glsl"
+		},
+		"fragment_d381e0f5-3def-4a0d-8853-31e9200bcbda": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Lofted-d381e0f5-3def-4a0d-8853-31e9200bcbda/Lofted-d381e0f5-3def-4a0d-8853-31e9200bcbda-v10.0-fragment.glsl"
+		},
+		"vertex_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-vertex.glsl"
+		},
+		"fragment_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-fragment.glsl"
+		}
+	},
+	"programs": {
+		"program_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_tangent",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62",
+			"fragmentShader": "fragment_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62"
+		},
+		"program_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+			"fragmentShader": "fragment_faaa4d44-fcfb-4177-96be-753ac0421ba3"
+		},
+		"program_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_tangent",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6",
+			"fragmentShader": "fragment_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6"
+		},
+		"program_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_tangent",
+				"a_texcoord0",
+				"a_texcoord1"
+			],
+			"vertexShader": "vertex_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9",
+			"fragmentShader": "fragment_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9"
+		},
+		"program_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_tangent",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab",
+			"fragmentShader": "fragment_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab"
+		},
+		"program_d381e0f5-3def-4a0d-8853-31e9200bcbda": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_tangent",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+			"fragmentShader": "fragment_d381e0f5-3def-4a0d-8853-31e9200bcbda"
+		},
+		"program_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_tangent",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+			"fragmentShader": "fragment_2f212815-f4d3-c1a4-681a-feeaf9c6dc37"
+		}
+	},
+	"techniques": {
+		"technique_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62": {
+			"program": "program_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"tangent": {
+					"type": 35666,
+					"semantic": "TANGENT"
+				},
+				"texcoord0": {
+					"type": 35664,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"EmissionGain": {
+					"type": 5126
+				},
+				"MainTex_TexelSize": {
+					"type": 35666
+				},
+				"MainTex": {
+					"type": 35678
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_tangent": "tangent",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_EmissionGain": "EmissionGain",
+				"u_MainTex_TexelSize": "MainTex_TexelSize",
+				"u_MainTex": "MainTex"
+			},
+			"states": {
+				"enable": [
+					2929,
+					3042
+				],
+				"functions": {
+					"blendFuncSeparate": [1, 1, 1, 1],
+					"depthMask": [false]
+				}
+			}
+		},
+		"technique_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"program": "program_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"texcoord0": {
+					"type": 35665,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"Shininess": {
+					"type": 5126
+				},
+				"Cutoff": {
+					"type": 5126
+				},
+				"Color": {
+					"type": 35666
+				},
+				"SpecColor": {
+					"type": 35666
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_Shininess": "Shininess",
+				"u_Cutoff": "Cutoff",
+				"u_Color": "Color",
+				"u_SpecColor": "SpecColor"
+			},
+			"states": {
+				"enable": [
+					2929
+				],
+				"functions": {
+					"depthMask": [true]
+				}
+			}
+		},
+		"technique_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6": {
+			"program": "program_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"tangent": {
+					"type": 35666,
+					"semantic": "TANGENT"
+				},
+				"texcoord0": {
+					"type": 35665,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"EmissionGain": {
+					"type": 5126
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_tangent": "tangent",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_EmissionGain": "EmissionGain"
+			},
+			"states": {
+				"enable": [
+					2929,
+					3042
+				],
+				"functions": {
+					"blendFuncSeparate": [1, 1, 1, 1],
+					"depthMask": [false]
+				}
+			}
+		},
+		"technique_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9": {
+			"program": "program_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"tangent": {
+					"type": 35666,
+					"semantic": "TANGENT"
+				},
+				"texcoord0": {
+					"type": 35664,
+					"semantic": "TEXCOORD_0"
+				},
+				"texcoord1": {
+					"type": 35666,
+					"semantic": "TEXCOORD_1"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"TintColor": {
+					"type": 35666
+				},
+				"MainTex_TexelSize": {
+					"type": 35666
+				},
+				"MainTex": {
+					"type": 35678
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_tangent": "tangent",
+				"a_texcoord0": "texcoord0",
+				"a_texcoord1": "texcoord1"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_TintColor": "TintColor",
+				"u_MainTex_TexelSize": "MainTex_TexelSize",
+				"u_MainTex": "MainTex"
+			},
+			"states": {
+				"enable": [
+					2929,
+					3042
+				],
+				"functions": {
+					"blendFuncSeparate": [1, 1, 1, 1],
+					"depthMask": [false]
+				}
+			}
+		},
+		"technique_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab": {
+			"program": "program_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"tangent": {
+					"type": 35666,
+					"semantic": "TANGENT"
+				},
+				"texcoord0": {
+					"type": 35664,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"EmissionGain": {
+					"type": 5126
+				},
+				"MainTex_TexelSize": {
+					"type": 35666
+				},
+				"MainTex": {
+					"type": 35678
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_tangent": "tangent",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_EmissionGain": "EmissionGain",
+				"u_MainTex_TexelSize": "MainTex_TexelSize",
+				"u_MainTex": "MainTex"
+			},
+			"states": {
+				"enable": [
+					2929,
+					3042
+				],
+				"functions": {
+					"blendFuncSeparate": [1, 1, 1, 1],
+					"depthMask": [false]
+				}
+			}
+		},
+		"technique_d381e0f5-3def-4a0d-8853-31e9200bcbda": {
+			"program": "program_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"tangent": {
+					"type": 35666,
+					"semantic": "TANGENT"
+				},
+				"texcoord0": {
+					"type": 35665,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"Color": {
+					"type": 35666
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_tangent": "tangent",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_Color": "Color"
+			},
+			"states": {
+				"enable": [
+					2929,
+					2884
+				],
+				"functions": {
+					"depthMask": [true]
+				}
+			}
+		},
+		"technique_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"program": "program_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"tangent": {
+					"type": 35666,
+					"semantic": "TANGENT"
+				},
+				"texcoord0": {
+					"type": 35665,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"Shininess": {
+					"type": 5126
+				},
+				"Cutoff": {
+					"type": 5126
+				},
+				"Color": {
+					"type": 35666
+				},
+				"SpecColor": {
+					"type": 35666
+				},
+				"BumpMap_TexelSize": {
+					"type": 35666
+				},
+				"BumpMap": {
+					"type": 35678
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_tangent": "tangent",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_Shininess": "Shininess",
+				"u_Cutoff": "Cutoff",
+				"u_Color": "Color",
+				"u_SpecColor": "SpecColor",
+				"u_BumpMap_TexelSize": "BumpMap_TexelSize",
+				"u_BumpMap": "BumpMap"
+			},
+			"states": {
+				"enable": [
+					2929,
+					2884
+				],
+				"functions": {
+					"depthMask": [true]
+				}
+			}
+		}
+	},
+	"samplers": {
+		"sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT": {
+			"magFilter": 9729,
+			"minFilter": 9987,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	},
+	"textures": {
+		"texture_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_MainTex": {
+			"format": 6408,
+			"internalFormat": 6408,
+			"sampler": "sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT",
+			"source": "image_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_MainTex",
+			"target": 3553,
+			"type": 5121
+		},
+		"texture_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_MainTex": {
+			"format": 6408,
+			"internalFormat": 6408,
+			"sampler": "sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT",
+			"source": "image_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_MainTex",
+			"target": 3553,
+			"type": 5121
+		},
+		"texture_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_MainTex": {
+			"format": 6408,
+			"internalFormat": 6408,
+			"sampler": "sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT",
+			"source": "image_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_MainTex",
+			"target": 3553,
+			"type": 5121
+		},
+		"texture_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_BumpMap": {
+			"format": 6408,
+			"internalFormat": 6408,
+			"sampler": "sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT",
+			"source": "image_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_BumpMap",
+			"target": 3553,
+			"type": 5121
+		}
+	},
+	"images": {
+		"image_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_MainTex": {
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62/Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62-v10.0-MainTex.png"
+		},
+		"image_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_MainTex": {
+			"uri": "https://www.tiltbrush.com/shaders/brushes/HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9/HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9-v10.0-MainTex.png"
+		},
+		"image_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_MainTex": {
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab/Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab-v10.0-MainTex.png"
+		},
+		"image_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_BumpMap": {
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-BumpMap.png"
+		}
+	},
+	"materials": {
+		"material_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62": {
+			"technique": "technique_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"EmissionGain": 0.45,
+				"MainTex_TexelSize": [0.001953125, 0.00390625, 512, 256],
+				"MainTex": "texture_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_MainTex"
+			},
+			"name": "material_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62"
+		},
+		"material_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"technique": "technique_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"Shininess": 0.743,
+				"Cutoff": 0.5,
+				"Color": [1, 1, 1, 1],
+				"SpecColor": [0.1985294, 0.1985294, 0.1985294, 0]
+			},
+			"name": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3"
+		},
+		"material_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6": {
+			"technique": "technique_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"EmissionGain": 0.5
+			},
+			"name": "material_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6"
+		},
+		"material_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9": {
+			"technique": "technique_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"TintColor": [0.9999999, 0.9999999, 0.9999999, 1],
+				"MainTex_TexelSize": [0.00390625, 0.00390625, 256, 256],
+				"MainTex": "texture_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_MainTex"
+			},
+			"name": "material_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9"
+		},
+		"material_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab": {
+			"technique": "technique_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"EmissionGain": 0.5178571,
+				"MainTex_TexelSize": [0.015625, 0.015625, 64, 64],
+				"MainTex": "texture_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_MainTex"
+			},
+			"name": "material_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab"
+		},
+		"material_d381e0f5-3def-4a0d-8853-31e9200bcbda": {
+			"technique": "technique_d381e0f5-3def-4a0d-8853-31e9200bcbda",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"Color": [1, 1, 1, 1]
+			},
+			"name": "material_d381e0f5-3def-4a0d-8853-31e9200bcbda"
+		},
+		"material_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"technique": "technique_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"Shininess": 0.15,
+				"Cutoff": 0.5,
+				"Color": [1, 1, 1, 1],
+				"SpecColor": [0, 0, 0, 0],
+				"BumpMap_TexelSize": [0.0009765625, 0.0078125, 1024, 128],
+				"BumpMap": "texture_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_BumpMap"
+			},
+			"name": "material_2f212815-f4d3-c1a4-681a-feeaf9c6dc37"
+		}
+	},
+	"nodes": {
+		"node_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0": {
+			"name": "node_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0",
+			"meshes": [
+				"mesh_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_SceneLight_0_i1": {
+			"name": "node_SceneLight_0_i1",
+			"light": "SceneLight_0",
+			"matrix": [0.898794, 0.2191856, -0.3796406, 0, -0.4383712, 0.449397, -0.7783785, 0, -1.490116E-08, 0.8660254, 0.4999999, 0, -2.481216, 5.286244, 4.572455, 1]
+		},
+		"node_SceneLight_1_i2": {
+			"name": "node_SceneLight_1_i2",
+			"light": "SceneLight_1",
+			"matrix": [0.7660446, -0.4924039, -0.4131757, 0, -0.6427875, -0.5868244, -0.4924039, 0, 2.980232E-08, 0.6427875, -0.7660447, 0, -2.481216, 5.14376, 3.764388, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0": {
+			"name": "node_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0",
+			"meshes": [
+				"mesh_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0": {
+			"name": "node_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+			"meshes": [
+				"mesh_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0": {
+			"name": "node_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0",
+			"meshes": [
+				"mesh_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0": {
+			"name": "node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0",
+			"meshes": [
+				"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0": {
+			"name": "node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0",
+			"meshes": [
+				"mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0": {
+			"name": "node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0",
+			"meshes": [
+				"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0": {
+			"name": "node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0",
+			"meshes": [
+				"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0": {
+			"name": "node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0",
+			"meshes": [
+				"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0": {
+			"name": "node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0",
+			"meshes": [
+				"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0": {
+			"name": "node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0",
+			"meshes": [
+				"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0": {
+			"name": "node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0",
+			"meshes": [
+				"mesh_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0": {
+			"name": "node_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0",
+			"meshes": [
+				"mesh_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0": {
+			"name": "node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0",
+			"meshes": [
+				"mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	},
+	"scene": "defaultScene",
+	"scenes": {
+		"defaultScene": {
+			"nodes": [
+				"node_Light_2241cd32-8ba2-48a5-9ee7-2caef7e9ed62_0_i0",
+				"node_SceneLight_0_i1",
+				"node_SceneLight_1_i2",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+				"node_NeonPulse_b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6_0_i0",
+				"node_HyperGrid_6a1cf9f9-032c-45ec-9b6e-a6680bee32e9_0_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_1_i0",
+				"node_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_1_i0",
+				"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_1_i0",
+				"node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_1_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_2_i0",
+				"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_2_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_3_i0",
+				"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_3_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_4_i0",
+				"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_4_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_5_i0",
+				"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_5_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_6_i0",
+				"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_6_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_7_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_8_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_9_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_10_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_11_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_12_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_13_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_14_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_15_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_16_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_17_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_18_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_19_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_20_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_21_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_22_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_23_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_24_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_25_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_26_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_27_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_28_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_29_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_30_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_31_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_32_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_33_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_34_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_35_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_36_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_37_i0",
+				"node_Lofted_d381e0f5-3def-4a0d-8853-31e9200bcbda_37_i0",
+				"node_Waveform_10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab_37_i0",
+				"node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_37_i0"
+			],
+			"extras": {
+				"TB_EnvironmentGuid": "9b89b0a4-c41e-4b78-82a1-22f10a238357",
+				"TB_Environment": "White",
+				"TB_UseGradient": "true",
+				"TB_SkyColorA": "0.7843137, 0.7843137, 0.7843137",
+				"TB_SkyColorB": "0.7843137, 0.7843137, 0.7843137",
+				"TB_SkyGradientDirection": "0, 1, 0",
+				"TB_FogColor": "1, 1, 1",
+				"TB_FogDensity": "0",
+				"TB_SkyColorHorizon": "0.7843137, 0.7843137, 0.7843137",
+				"TB_SkyColorZenith": "0.7843137, 0.7843137, 0.7843137"
+			}
+		}
+	}
+}

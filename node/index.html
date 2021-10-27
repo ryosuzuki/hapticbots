@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    body { margin: 0; }
+  </style>
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script>
+    const socket = io()
+  </script>
+
+</head>
+<body>
+  <svg width="500" height="500">
+    <rect id="mat" x="50" y="50" width="400" height="400" stroke="gray" fill="#eee" stroke-width="4" />
+
+    <circle id="target-0" cx="-50" cy="-50" r="10" stroke="red" fill="#e16666" stroke-width="1" />
+    <circle id="target-1" cx="-50" cy="-50" r="10" stroke="red" fill="#e16666" stroke-width="1" />
+    <circle id="target-2" cx="-50" cy="-50" r="10" stroke="red" fill="#e16666" stroke-width="1" />
+    <circle id="target-3" cx="-50" cy="-50" r="10" stroke="red" fill="#e16666" stroke-width="1" />
+    <circle id="target-4" cx="-50" cy="-50" r="10" stroke="red" fill="#e16666" stroke-width="1" />
+    <circle id="target-5" cx="-50" cy="-50" r="10" stroke="red" fill="#e16666" stroke-width="1" />
+    <circle id="target-6" cx="-50" cy="-50" r="10" stroke="red" fill="#e16666" stroke-width="1" />
+
+    <rect id="cube-0" x="-50" y="-50" width="25" height="25" stroke="gray" fill="white" stroke-width="4" transform=""/>
+    <rect id="cube-1" x="-50" y="-50" width="25" height="25" stroke="gray" fill="white" stroke-width="4" transform=""/>
+    <rect id="cube-2" x="-50" y="-50" width="25" height="25" stroke="gray" fill="white" stroke-width="4" transform=""/>
+    <rect id="cube-3" x="-50" y="-50" width="25" height="25" stroke="gray" fill="white" stroke-width="4" transform=""/>
+    <rect id="cube-4" x="-50" y="-50" width="25" height="25" stroke="gray" fill="white" stroke-width="4" transform=""/>
+    <rect id="cube-5" x="-50" y="-50" width="25" height="25" stroke="gray" fill="white" stroke-width="4" transform=""/>
+    <rect id="cube-6" x="-50" y="-50" width="25" height="25" stroke="gray" fill="white" stroke-width="4" transform=""/>
+  </svg>
+
+  <div style="margin-left: 30px">
+    <div style="float: left; width: 50%">
+      <div>
+        <select name="ip" id="ips">
+        </select>
+      </div>
+      <br />
+      <div>
+        <button id="stop">Force Stop</button>
+        <button id="up">Up</button>
+        <button id="down">Down</button>
+        <button id="left-down">Left Down</button>
+        <button id="right-down">Right Down</button>
+        ( ± 100 )
+        -
+        Calibrate:
+        <button id="calibrate">Init to Zero</button>
+        <br/>
+        <br/>
+        <button id="zero">Zero</button>
+      </div>
+      <br/>
+      <div>
+        Height: <span id="height-num"></span>
+        <div class="slidecontainer">
+          <span id="min"></span>
+          <input type="range" value="2" class="slider" id="height" step="1">
+          <span id="max"></span>
+        </div>
+        <!--
+        Current_A: <span id="current-a"></span>
+        <div class="slidecontainer">
+          <span>0</span>
+          <input type="range" min="0" max="5000" value="2" class="slider" id="height-a" step="0.01">
+          <span>5000</span>
+        </div>
+
+        Current_B: <span id="current-b"></span>
+        <div class="slidecontainer">
+          <span>0</span>
+          <input type="range" min="0" max="5000" value="2" class="slider" id="height-b" step="0.01">
+          <span>5000</span>
+        </div>
+        -->
+      </div>
+      <br/>
+      <div>
+        Actuate to: <input type="text" name="" id="actuate-value">
+        <button id="actuate">Actuate</button>
+      </div>
+      <div>
+      </div>
+    </div>
+    <div style="float: left; width: 50%">
+      <pre id="current" style="height: 200px; overflow: scroll"></pre>
+    </div>
+  </div>
+
+  <script>
+    let target_id = 0
+
+    socket.on('init', (data) => {
+      let max = data.max
+      let min = data.min
+      document.getElementById('min').textContent = min
+      document.getElementById('height').min = min
+      document.getElementById('max').textContent = max
+      document.getElementById('height').max = max
+
+      let ips = data.reel_ips
+      let el = document.getElementById('ips')
+      for (let i = 0; i < ips.length; i++) {
+        let ip = ips[i]
+        let option = document.createElement('option')
+        option.text = `ID-${i}: ${ip}`
+        option.value = i
+        el.add(option)
+      }
+    })
+
+    document.getElementById('ips')
+    .addEventListener('change', (event) => {
+      target_id = event.target.value
+      // socket.emit('target-ip', target_ip)
+    })
+
+    document.getElementById('height')
+    .addEventListener('input', (event) => {
+      let value = document.getElementById('height').value
+      move(value)
+    })
+
+    document.getElementById('calibrate')
+    .addEventListener('click', (event) => {
+      socket.emit('reel-calibrate', { id: target_id })
+    })
+
+    document.getElementById('stop')
+    .addEventListener('click', (event) => {
+      socket.emit('reel-stop', { id: target_id })
+    })
+
+    document.getElementById('up')
+    .addEventListener('click', (event) => {
+      socket.emit('reel-up', { id: target_id })
+    })
+
+    document.getElementById('down')
+    .addEventListener('click', (event) => {
+      socket.emit('reel-down', { id: target_id })
+    })
+
+    document.getElementById('left-down')
+    .addEventListener('click', (event) => {
+      socket.emit('reel-left-down', { id: target_id })
+    })
+
+    document.getElementById('right-down')
+    .addEventListener('click', (event) => {
+      socket.emit('reel-right-down', { id: target_id })
+    })
+
+    document.getElementById('actuate')
+    .addEventListener('click', (event) => {
+      let value = document.getElementById('actuate-value').value
+      move(value)
+    })
+
+    document.getElementById('zero')
+    .addEventListener('click', (event) => {
+      socket.emit('reel-move', { id: 0, target: 500, tilt: false })
+    })
+
+    function move(value) {
+      let target = parseFloat(value)
+      console.log({ id: target_id, target: target, tilt: true })
+      socket.emit('reel-move', { id: target_id, target: target, tilt: true })
+      document.getElementById('actuate-value').value = ''
+    }
+
+    socket.on('reel-move', (data) => {
+      console.log('reel-move', data)
+      socket.emit('reel-move', data)
+    })
+
+    socket.on('current', (data) => {
+      // console.log(data)
+      document.getElementById('current').textContent = JSON.stringify(data, null, 2)
+
+      let current = data[target_id]
+      let height_a = current.height_a
+      let height_b = current.height_b
+      document.getElementById('height-num').textContent = height_b
+      document.getElementById('height').value = height_b
+      /*
+      document.getElementById('current-a').textContent = height_a
+      document.getElementById('height-a').value = height_a
+      document.getElementById('current-b').textContent = height_b
+      document.getElementById('height-b').value = height_b
+      */
+    })
+
+    socket.on('targets', (targets) => {
+      window.targets = targets
+      let id = 0
+      for (let target of targets) {
+        const el = document.getElementById(`target-${id}`)
+        el.setAttribute('cx', target.x)
+        el.setAttribute('cy', target.y)
+        id++
+      }
+    })
+
+    socket.on('pos', (data) => {
+      // console.log(data)
+      for (let robot of data.robots) {
+        let id = robot.numId
+        const el = document.getElementById(`cube-${id}`)
+        el.setAttribute('x', robot.x - 12.5)
+        el.setAttribute('y', robot.y - 12.5)
+        const transform = 'rotate('+robot.angle+', '+(robot.x)+', '+(robot.y)+')'
+        el.setAttribute('transform', transform)
+      }
+      let id = 0
+      for (let target of data.targets) {
+        const el = document.getElementById(`target-${id}`)
+        el.setAttribute('cx', target.x)
+        el.setAttribute('cy', target.y)
+        id++
+      }
+
+    })
+
+    const mat = document.getElementById('mat')
+    /*
+    let drag = false
+    mat.addEventListener('mousedown', (e) => {
+      console.log('mousedown')
+      drag = true
+    })
+    mat.addEventListener('mouseup', (e) => {
+      console.log('mouseup')
+      drag = false
+    })
+    mat.addEventListener('mousemove', (e) => {
+      console.log(drag)
+      if (drag) {
+        let targetX = e.clientX
+        let targetY = e.clientY
+        sendTarget(targetX, targetY)
+      }
+    })
+    */
+    mat.addEventListener('click', (e) => {
+      let targetX = e.clientX
+      let targetY = e.clientY
+      sendTarget(targetX, targetY)
+    })
+    function sendTarget(targetX, targetY) {
+      socket.emit('move', { x: targetX, y: targetY })
+    }
+
+    document.addEventListener('keydown', (event) => {
+      switch (event.keyCode) {
+        case 13:
+          socket.emit('calibrate', 'return')
+          break
+        case 32:
+          socket.emit('calibrate', 'space')
+          break
+        case 39:
+          socket.emit('calibrate', 'right')
+          break
+        case 37:
+          socket.emit('calibrate', 'left')
+          break
+      }
+    })
+
+    socket.on('calibrate', (data) => {
+      console.log(data)
+    })
+
+  </script>
+
+</body>
+</html>

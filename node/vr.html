@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    body { margin: 0; }
+  </style>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script>
+    const socket = io()
+
+    const max = 450
+    const min = 50
+    const size = max - min
+    const mid = (max - min) / 2 + min
+
+    let id = 0
+
+    socket.on('pos', (data) => {
+      // console.log(data)
+      const robot = data.robots[id]
+      const el = document.getElementById('robot')
+      const x = - (robot.x - mid) / (max - mid) * 0.28
+      const z = - (robot.y - mid) / (max - mid) * 0.28
+      const y = 0.01
+      const angle = -robot.angle
+      el.setAttribute('position', `${-x} ${y} ${-z}`)
+      el.setAttribute('rotation', `0 ${angle} 0`)
+    })
+
+    socket.on('current', (data) => {
+      // console.log(data)
+      let current = data[id]
+      let height_a = current.height_a
+      let height_b = current.height_b
+      let height = hConvert(height_b)
+
+      if (height === 0) { return }
+
+      const el = document.getElementById('reel')
+      el.setAttribute('height', height)
+      el.setAttribute('position', `0 ${height/2} 0`)
+    })
+
+    function posConvert(x, y) {
+      let max = 450
+      let min = 50
+      let size = max - min
+      let mid = (max - min) / 2 + min
+      x = x / 0.28 * (max - mid) + mid
+      y = y / 0.28 * (max - mid) + mid
+      return { x: x, y: y }
+    }
+
+    function hConvert(h) {
+      let height = h * 0.04 / 1000 + 0.08
+      return height
+    }
+
+    function heightConvert(h) {
+      /*
+        0: 8cm, 1000: +4cm, 5000: 28cm (8cm + 4cm x 5)
+        -    0  80
+        - 1000 120
+        - 2100 160
+        - 3100 200
+        - 4000 240
+        - 5000 280
+        h = 0.12 -> (0.12 - 0.08) = 0.04
+        + 4cm -> 4 cm * 1000 / 4 -> 1000
+        0.04 * 1000 / 0.04
+      */
+      let min = 200
+      let max = 4000
+      let target = (h - 0.08) * 1000 / 0.04
+      target = target < min ? min : target
+      target = target > max ? max : target
+      return target
+    }
+
+    AFRAME.registerComponent('cursor-listen', {
+      init: function () {
+        this.el.addEventListener('click', (event) => {
+          console.log('click')
+          if (!event.detail.cursorEl) return
+          if (this.cursor) {
+            let intersection = this.cursor.components.raycaster.getIntersection(this.el)
+            if (!intersection) { return }
+            let point = intersection.point
+            let hit = document.getElementById('cursor-point')
+            hit.setAttribute('position', `${point.x} ${point.y} ${point.z}`)
+            console.log({ x: point.x, z: point.z })
+            let target = posConvert(point.x, point.z)
+            console.log(target)
+            socket.emit('move', target)
+
+            let height = heightConvert(point.y)
+            console.log(height)
+            socket.emit('reel-move', { id: 0, target: height })
+          }
+        })
+
+        this.el.addEventListener('raycaster-intersected', (event) => {
+          if (event.detail.el.id !== 'camera') return
+          this.cursor = event.detail.el
+        })
+
+        this.el.addEventListener('raycaster-intersected-cleared', (event) => {
+          if (event.detail.el.id !== 'camera') return
+          this.cursor = null
+        })
+      },
+
+      tick: function () {
+        if (!this.cursor) return
+        let intersection = this.cursor.components.raycaster.getIntersection(this.el)
+        if (!intersection) { return }
+        let point = intersection.point
+        let distance = Math.round(intersection.distance * 100) / 100
+        let hit = document.getElementById('cursor-point')
+        hit.setAttribute('position', `${point.x} ${point.y} ${point.z}`)
+      }
+    })
+
+    AFRAME.registerComponent('raycaster-listen', {
+      init: function () {
+        this.el.addEventListener('raycaster-intersected', (event) => {
+          if (event.detail.el.id !== 'raycaster') return
+          console.log('intersected ray')
+          this.raycaster = event.detail.el
+        })
+
+        this.el.addEventListener('raycaster-intersected-cleared', (event) => {
+          if (event.detail.el.id !== 'raycaster') return
+          console.log('clear')
+          this.raycaster = null
+        })
+      },
+
+      tick: function () {
+        window.raycaster = this.raycaster
+        // console.log(this.raycaster)
+        if (!this.raycaster) return
+        let intersection = this.raycaster.components.raycaster.getIntersection(this.el)
+        if (!intersection) { return }
+        let point = intersection.point
+        let distance = Math.round(intersection.distance * 100) / 100
+        let hit = document.getElementById('hit-point')
+        hit.setAttribute('position', `${point.x} ${point.y} ${point.z}`)
+      }
+    })
+
+    AFRAME.registerComponent('collider-check', {
+      dependencies: ['raycaster'],
+      init: function () {
+        this.el.addEventListener('raycaster-intersection', (event) => {
+          console.log('Ray hits something!')
+        })
+      },
+    })
+
+  </script>
+</head>
+<body>
+  <a-scene>
+    <a-entity id="rig" position="0 0.5 0.5" rotation="-45 0 0">
+      <a-camera
+        id="camera"
+        position="0 0 0"
+        cursor="rayOrigin: mouse"
+        raycaster="objects: .clickable"
+      ></a-camera>
+    </a-entity>
+
+    <a-plane
+      color="#CCC"
+      height="0.55"
+      width="0.55"
+      rotation="-90 0 0"
+    ></a-plane>
+
+    <a-entity collider-check id="robot" position="-0.1 0 0.1">
+      <a-box id="toio" color="#aaa" width="0.03" height="0.02" depth="0.03"></a-box>
+      <a-box id="reel" color="#bbb" width="0.02" height="0.02" depth="0.02" position="0 0.02 0"></a-box>
+      <a-entity
+        id="raycaster"
+        raycaster="objects: .collidable; showLine: true; direction: 0 1 0"
+      ></a-entity>
+    </a-entity>
+
+    <a-entity
+      cursor-listen
+      class="clickable"
+      geometry="primitive: sphere; radius: 0.3"
+      position="0 0 0"
+      material="side: double; color: yellow; opacity: 0.2"
+    ></a-entity>
+
+    <a-entity
+      raycaster-listen
+      class="collidable"
+      geometry="primitive: sphere; radius: 0.29"
+      position="0 0 0"
+      material="side: double; color: yellow; opacity: 0.2"
+    ></a-entity>
+
+
+    <a-sphere
+      id="hit-point"
+      material="color: red"
+      radius="0.005"
+    ></a-sphere>
+
+    <a-sphere
+      id="cursor-point"
+      material="color: blue"
+      radius="0.005"
+    ></a-sphere>
+
+  </a-scene>
+</body>
+
+</html>

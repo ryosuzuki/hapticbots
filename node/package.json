@@ -1,0 +1,22 @@
+{
+  "name": "swarm-display",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@toio/cube": "^1.0.0",
+    "@toio/scanner": "^1.0.0",
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "keypress": "^0.2.1",
+    "munkres-js": "^1.2.2",
+    "socket.io": "^1"
+  }
+}

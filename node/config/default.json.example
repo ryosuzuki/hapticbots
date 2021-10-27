@@ -1,0 +1,27 @@
+/*
+  To get toio_ids, run `node test/test.js`
+  The order of toio_ids and the corresponding reel actuator should be the same (just mark id number with a post-it or something)
+  e.g., robot_ips[i] should be attached to toios_ids[i]
+*/
+{
+  "node_ip": "10.0.0.49", // host computer ip
+  "total_num": 1,
+  "toio_ids": [
+    "7ddf5892bf3648b7bcfeed0931effe7c", // numId = 0
+    "9144f60e7041413e9bc830c71f439d53", // numId = 1
+    "9e72e64ac21b4d79a54b44fd1e922009", // numId = 2
+    "5253c6eae0fa453798e5c2292723b26e", // numId = 3
+    "a6fab381be644e82a5b966e8836f3932", // numId = 4
+    "dee39d6238364e3c85b5856bf5a6aacc", // numId = 5
+    "d9b495ddd3454e5d87ff4d04646a1692", // numId = 6
+  ],
+  "reel_ips": [
+    "10.0.0.61",     // numId = 0
+    "10.0.0.174",    // numId = 1
+    "10.0.0.170",    // numId = 2
+    "10.0.0.99",     // numId = 3
+    "10.0.0.3",      // numId = 4
+    "10.0.0.152",    // numId = 5
+    "10.0.0.71"      // numId = 6
+  ],
+}

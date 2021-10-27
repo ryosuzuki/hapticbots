@@ -1,0 +1,2 @@
+CockpitControlCenter.bin -> CE5A64744A489652F1AB39C1A8CB0D79.bin
+CockpitControlCenter_BaseColor.png -> 8BF18081DC46B45F3B3391FF07F06307.png

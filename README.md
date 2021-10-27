@@ -2,8 +2,6 @@
 
 This is a repository for HapticBots [UIST 2021].
 
-The hardware and software of this project is available soon.
-
 ```bibtex
 @inproceedings{suzuki2021hapticbots,
   title={HapticBots: Distributed Encountered-type Haptics for VR withMultiple Shape-changing Mobile Robots},

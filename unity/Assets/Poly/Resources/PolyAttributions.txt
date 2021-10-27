@@ -1,0 +1,61 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Bison
+Author: Poly by Google
+URL: https://poly.google.com/view/9sTrha-TxdS
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Chess Set
+Author: Jarlan Perez
+URL: https://poly.google.com/view/00f9MZIwA1V
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Chess Set
+Author: Pia Leung
+URL: https://poly.google.com/view/bfb3C6hpdi0
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Cockpit control center
+Author: Poly by Google
+URL: https://poly.google.com/view/bm3pR6gG11N
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Grass Block
+Author: Dobromir Yordanov (Dobri)
+URL: https://poly.google.com/view/1UGP1cqFqXj
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Hammer
+Author: sirkitree
+URL: https://poly.google.com/view/4vFXBg4-1yW
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: House
+Author: Poly by Google
+URL: https://poly.google.com/view/6PGyqELX8M-
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Pine Tree
+Author: Danny Bittman
+URL: https://poly.google.com/view/2Qo-fmVKuSG
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Tree
+Author: Poly by Google
+URL: https://poly.google.com/view/6pwiq7hSrHr
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: turntables
+Author: Alex Wasowicz
+URL: https://poly.google.com/view/bZwUjeU5I6W
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode

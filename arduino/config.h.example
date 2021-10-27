@@ -1,0 +1,8 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+static const char *ssid = "wifi-ssid";
+static const char *password = "wifi-passowrd";
+static const char *nodeIP = "pc-local-ip-address";
+
+#endif

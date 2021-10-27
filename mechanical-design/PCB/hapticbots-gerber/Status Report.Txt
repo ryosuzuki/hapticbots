@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ShapeBot.PrjPcb]
+   Generated File[ShapeBotPCB.TXT]
+   Generated File[ShapeBotPCB.LDP]
+   Generated File[ShapeBotPCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:25:24 PM On 2/1/19
